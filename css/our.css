@@ -1,0 +1,66 @@
+@charset "UTF-8";
+.our_one{
+   width:100%;
+}
+html,body{
+	height: 100%;
+}
+
+
+.fixed_bg1{
+	width:100%;
+	height:5.99rem;
+	background: url(../img/gywm/gsjj1.jpg) no-repeat fixed;
+	background-size: cover;
+}
+.fixed_bg2{
+	width:100%;
+	height:5.99rem;
+	background: url(../img/gywm/gsjj2.jpg) no-repeat fixed;
+	background-size: cover;
+}
+.fixed_bg3{
+	width:100%;
+	height:5.99rem;
+	background: url(../img/gywm/gsjj3.jpg) no-repeat fixed;
+	background-size: cover;
+}
+.scroll_bg{
+	position:relative;
+	z-index: 10;
+	background-color:white;
+
+}
+.color1{
+	height: 2rem;
+
+}
+.ppp{
+  width:80%;
+	text-align: center;
+	margin:0 auto;
+	font-size: 0.2rem;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.color2{
+	height: 2rem;
+
+}
+.color3{
+	height: 2rem;
+}
+@media (max-width: 375px){
+    .ppp{
+			transform: scale(0.7);
+			 top: -9%;
+		}
+		.pppp{
+			top:22%;
+		}
+		.foot2 p{
+			margin-top: 10px;
+    transform: scale(0.8);
+		}
+}
